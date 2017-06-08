@@ -1,0 +1,7 @@
+#login h1 a, .login h1 a {
+    background-image: url(../images/home/logo.png);
+    height:39px;
+    width:139px;
+    background-size: 139px 39px;
+    background-repeat: no-repeat;
+}
