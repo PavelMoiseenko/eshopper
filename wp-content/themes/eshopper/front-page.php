@@ -3,7 +3,8 @@
     <section>
         <div class="container">
             <div class="row">
-                <?php get_sidebar('left'); ?>
+                <?php
+                get_sidebar('left'); ?>
                 <div class="col-sm-9 padding-right">
                     <?php
                     $query = new WP_Query(array(
@@ -16,6 +17,7 @@
                             ),
                         ),
                     ));
+
                     if ($query->have_posts()): ?>
                         <div class="features_items">
                             <h2 class="title text-center">Features Items</h2>
@@ -41,7 +43,8 @@
                                         <div class="choose">
                                             <ul class="nav nav-pills nav-justified">
                                                 <li>
-                                                    <?php echo do_shortcode("[yith_wcwl_add_to_wishlist label='<i class=\"fa fa-plus-square\"></i>Add to wishlist']"); ?>
+                                                    <?php
+                                                    echo do_shortcode("[yith_wcwl_add_to_wishlist label='<i class=\"fa fa-plus-square\"></i>Add to wishlist']"); ?>
                                                 </li>
                                                 <li>
                                                     <?php echo do_shortcode("[yith_compare_button]"); ?>
