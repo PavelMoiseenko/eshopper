@@ -28,7 +28,11 @@ get_header(); ?>
         <?php endif; ?>
         <div class="row">
             <?php
-            echo do_shortcode('[contact-form-7 id="177" title="Contact form 1"]'); ?>
+            $contact_form_obj = get_field("contact_form");
+            $contact_form_title = $contact_form_obj -> post_title;
+            $contact_form_ID = $contact_form_obj -> ID;
+            $shortcode_cf7 =  "[contact-form-7 id= '" .$contact_form_ID . "' title='" . $contact_form_title . "']";
+            echo do_shortcode($shortcode_cf7); ?>
             <div class="col-sm-4">
                 <div class="contact-info">
                     <?php
