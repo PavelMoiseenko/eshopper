@@ -20,7 +20,7 @@ if (have_rows('gallery')): ?>
                                         <h1><?php the_sub_field('gallery_title');?></h1>
                                         <h2><?php the_sub_field('gallery_subtitle');?></h2>
                                         <p><?php the_sub_field('gallery_description');?></p>
-                                        <button type="button" class="btn btn-default get"><?php the_sub_field('gallery_cta_text');?></button>
+                                        <a href="<?php the_sub_field("gallery_link");?>" class="btn btn-default get"><?php the_sub_field('gallery_cta_text');?></a>
                                     </div>
                                     <div class="col-sm-6">
                                         <img src="<?php the_sub_field('gallery_slide');?>" class="girl img-responsive" alt="" />

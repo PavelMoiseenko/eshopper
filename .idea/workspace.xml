@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b85dd88-799b-44a6-8564-de0cdf185b95" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/woo-functions.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/blog-single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/cart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/checkout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/contact-us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/product-details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/sendemail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/shop.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/login.php" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/slider.php" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/inc/slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/sidebar-left.php" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/sidebar-left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/woo-functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/woo-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/content-product.php" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/content-product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/loop/add-to-cart.php" afterPath="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/loop/add-to-cart.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,38 +21,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/front-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slider.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/inc/slider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="4240">
+              <caret line="212" column="42" lean-forward="false" selection-start-line="212" selection-start-column="42" selection-end-line="212" selection-end-column="42" />
               <folding>
-                <marker date="1497275425823" expanded="true" signature="14949:14960" ph="..." />
-                <marker date="1497275425823" expanded="true" signature="14949:14972" ph="..." />
-                <marker date="1497275425823" expanded="true" signature="14949:14973" ph="..." />
-                <marker date="1497275425823" expanded="true" signature="15037:15047" ph="..." />
-                <marker date="1497275425823" expanded="true" signature="15037:15050" ph="..." />
-                <marker date="1497275425823" expanded="true" signature="15037:15065" ph="..." />
+                <marker date="1497278561043" expanded="true" signature="5411:5422" ph="..." />
+                <marker date="1497278561043" expanded="true" signature="5411:5434" ph="..." />
+                <marker date="1497278561043" expanded="true" signature="5411:5435" ph="..." />
+                <marker date="1497278561043" expanded="true" signature="5499:5509" ph="..." />
+                <marker date="1497278561043" expanded="true" signature="5499:5512" ph="..." />
+                <marker date="1497278561043" expanded="true" signature="5499:5527" ph="..." />
               </folding>
             </state>
           </provider>
@@ -67,8 +41,18 @@
       <file leaf-file-name="woo-functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/woo-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="-715">
+              <caret line="198" column="6" lean-forward="true" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/front-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="156" column="58" lean-forward="false" selection-start-line="156" selection-start-column="58" selection-end-line="156" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -86,22 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>first_name</find>
-      <find>first_nameuser</find>
-      <find>.pagin</find>
-      <find>.active</find>
-      <find>pagenav</find>
-      <find>form-row-las</find>
-      <find>selec</find>
-      <find>select</find>
-      <find>s</find>
-      <find>select2</find>
-      <find>select2(</find>
-      <find>select2()</find>
-      <find>class-wc-countries.php</find>
-      <find>ua</find>
-      <find>u</find>
-      <find>U</find>
       <find>UA</find>
       <find>&quot;UA</find>
       <find>&quot;UA&quot;</find>
@@ -116,6 +84,22 @@
       <find>form-login</find>
       <find>woocommerce_checkout_login_form</find>
       <find>register_si</find>
+      <find>woocommerce_admin_order_data_after_billing_address</find>
+      <find>woocommerce_template_loop_add_to_cart</find>
+      <find>woocommerce_ajax_added_to_cart</find>
+      <find>()</find>
+      <find>(</find>
+      <find>a</find>
+      <find>add</find>
+      <find>add_</find>
+      <find>add_t</find>
+      <find>add_to</find>
+      <find>add_to_c</find>
+      <find>add_to_ca</find>
+      <find>add_to_cart</find>
+      <find>add_to_cart(</find>
+      <find>add_to_cart()</find>
+      <find>overla</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/wp-content/themes/eshopper/css</dir>
@@ -133,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/single-product/title.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/single-product/price.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/single-product/add-to-cart/simple.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/global/quantity-input.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/single-product/related.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/cart/proceed-to-checkout-button.php" />
@@ -153,7 +134,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/single-product-reviews.php" />
         <option value="$PROJECT_DIR$/wp-includes/comment-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/archive-product.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/content-product.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/single-product/sale-flash.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/loop/sale-flash.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/content-single-product.php" />
@@ -170,7 +150,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/blog.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/search.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/js/main.js" />
         <option value="$USER_HOME$/Desktop/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/checkout/form-billing.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/checkout/payment-method.php" />
@@ -178,12 +157,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/checkout/payment.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/checkout/form-checkout.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/css/main.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/test_arr.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/login.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woo-functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eshopper/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/sidebar-left.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/content-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woo-functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/loop/add-to-cart.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/inc/slider.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eshopper/front-page.php" />
       </list>
     </option>
   </component>
@@ -201,9 +185,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1745" />
-    <option name="y" value="-4" />
+    <option name="y" value="49" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -310,25 +294,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="woocommerce" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eshopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eshopper" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,18 +456,21 @@
       <workItem from="1496989112805" duration="14617000" />
       <workItem from="1497247875006" duration="618000" />
       <workItem from="1497261700649" duration="872000" />
-      <workItem from="1497272354902" duration="3879000" />
+      <workItem from="1497272354902" duration="9408000" />
+      <workItem from="1497334684509" duration="11808000" />
+      <workItem from="1497856851543" duration="703000" />
+      <workItem from="1497857806989" duration="1873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="488224000" />
+    <option name="totallyTimeSpent" value="508137000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1745" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1745" y="49" width="1855" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2592992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13638814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -552,46 +521,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/loop/price.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/js/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/js/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/sidebar-left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -695,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-923">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/content-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="56" column="15" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -734,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/woocommerce.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -759,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,13 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="1502" column="13" lean-forward="true" selection-start-line="1502" selection-start-column="13" selection-end-line="1502" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -857,19 +767,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/test_arr.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/auth/form-login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,29 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1497275425823" expanded="true" signature="14949:14960" ph="..." />
-            <marker date="1497275425823" expanded="true" signature="14949:14972" ph="..." />
-            <marker date="1497275425823" expanded="true" signature="14949:14973" ph="..." />
-            <marker date="1497275425823" expanded="true" signature="15037:15047" ph="..." />
-            <marker date="1497275425823" expanded="true" signature="15037:15050" ph="..." />
-            <marker date="1497275425823" expanded="true" signature="15037:15065" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/woo-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -912,10 +790,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/js/jquery/jquery-migrate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="100" column="37" lean-forward="false" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="668" column="25" lean-forward="false" selection-start-line="668" selection-start-column="25" selection-end-line="668" selection-end-column="25" />
+          <folding>
+            <marker date="1495637460612" expanded="true" signature="45015:45093" ph="SELECT term_... $" />
+            <marker date="1495637460612" expanded="true" signature="55772:55785" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/content-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="41" column="62" lean-forward="true" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="365" column="45" lean-forward="false" selection-start-line="365" selection-start-column="45" selection-end-line="365" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/woocommerce/loop/add-to-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4240">
+          <caret line="212" column="42" lean-forward="false" selection-start-line="212" selection-start-column="42" selection-end-line="212" selection-end-column="42" />
+          <folding>
+            <marker date="1497278561043" expanded="true" signature="5411:5422" ph="..." />
+            <marker date="1497278561043" expanded="true" signature="5411:5434" ph="..." />
+            <marker date="1497278561043" expanded="true" signature="5411:5435" ph="..." />
+            <marker date="1497278561043" expanded="true" signature="5499:5509" ph="..." />
+            <marker date="1497278561043" expanded="true" signature="5499:5512" ph="..." />
+            <marker date="1497278561043" expanded="true" signature="5499:5527" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/inc/slider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        <state relative-caret-position="400">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/sidebar-left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/woo-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-715">
+          <caret line="198" column="6" lean-forward="true" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eshopper/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="156" column="58" lean-forward="false" selection-start-line="156" selection-start-column="58" selection-end-line="156" selection-end-column="58" />
           <folding />
         </state>
       </provider>

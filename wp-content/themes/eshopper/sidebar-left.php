@@ -13,8 +13,8 @@
             $child_categories = "";
             $child_categories = get_terms(array(
                 'taxonomy' => 'product_cat',
-                'parent' => $prod_cat_term->term_id,
-                'hide_empty' => 0)); ?>
+                'parent' => $prod_cat_term->term_id
+            )); ?>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
