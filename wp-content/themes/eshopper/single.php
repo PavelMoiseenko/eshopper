@@ -25,8 +25,13 @@
                             <p><?php the_content();?></p>
                             <div class="pager-area">
                                 <ul class="pager pull-right">
-                                    <li><a href="#">Pre</a></li>
-                                    <li><a href="#">Next</a></li>
+                                    <li>
+                                        <?php previous_post_link('%link','Pre');?>
+
+                                    </li>
+                                    <li>
+                                        <?php next_post_link('%link', 'Next');?>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
