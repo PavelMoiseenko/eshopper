@@ -18,16 +18,13 @@
                 $loop = new WP_Query( $args );
                 while ( $loop->have_posts() ) : $loop->the_post();
                     global $product;
-//                    echo '<br /><a href="'.get_permalink().'">' . ' '.get_the_title().'</a>';
-                    //var_dump($product);
                     $brand = wp_get_post_terms( $post->ID, 'pwb-brand', array("fields" => "all") );
                     $brand_name = $brand[0]->name;
                     if(!in_array($brand_name, $brands)){
                         $brands[] = $brand_name;
                     }
                 endwhile;
-                wp_reset_query();
-             ?>
+                wp_reset_query();?>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
