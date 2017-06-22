@@ -42,7 +42,7 @@
                     <ul>
                         <?php
                         foreach ($brands as $brand_name) : ?>
-                            <li><a href="<?php echo get_term_link( $brand_name, 'pwb-brand' );?>"><?php echo $brand_name; ?></a></li>
+                            <li><a class=<?php echo get_term_by('name', $brand_name, 'pwb-brand')->slug;?> href="<?php echo get_term_link( $brand_name, 'pwb-brand' );?>"><?php echo $brand_name; ?></a></li>
                         <?php endforeach; ?>
                     </ul>
                 </div>

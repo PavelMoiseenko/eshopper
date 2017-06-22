@@ -1,6 +1,5 @@
 
 /*scroll to top*/
-
 jQuery(document).ready(function($){
 	$(function () {
 		$.scrollUp({
@@ -22,6 +21,27 @@ jQuery(document).ready(function($){
 
 
 	});
+
+
+	/*AJAX filter by brand*/
+	$('.panel-body a').on("click", function(e){
+        e.preventDefault();
+        var brand_slug = $(this).attr("class");
+        var data = {
+            action : 'my_action',
+            brand_slug : brand_slug
+        };
+
+        jQuery.post(
+            myajax.url,
+            data,
+            function(response){
+                $("section .col-sm-9").html(response);
+            }
+        );
+    });
+
+
 
 	/*price range*/
 
