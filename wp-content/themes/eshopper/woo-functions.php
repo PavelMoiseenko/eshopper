@@ -312,3 +312,60 @@ function my_custom_checkout_field_display_admin_order_meta($order){
     echo "<h1>TEST</h1>";
     echo '<p><strong>'.__('My Field').':</strong> ' . get_post_meta( $order->id, '_billing_title', true ) . '</p>';
 }
+
+/*AJAX filter by brand & category*/
+
+add_action('wp_ajax_my_action', 'callback_my_action');
+add_action('wp_ajax_nopriv_my_action', 'callback_my_action');
+
+function callback_my_action(){
+    $brand_slug = $_POST['brand_slug'];
+    $category_name = $_POST['category_name'];
+    $ajax_query = new WP_Query(array(
+        'pwb-brand' => $brand_slug,
+        "product_cat" => $category_name
+    ));
+
+if ($ajax_query->have_posts()): ?>
+    <div class="features_items">
+        <h2 class="title text-center">Features Items</h2>
+        <?php while ($ajax_query->have_posts()) : $ajax_query->the_post();
+            global $product;?>
+            <div class="col-sm-4">
+                <div class="product-image-wrapper">
+                    <div class="single-products">
+                        <div class="productinfo text-center">
+                            <?php the_post_thumbnail(); ?>
+                            <h2><?php echo $product->get_price_html(); ?></h2>
+                            <p><?php the_title(); ?></p>
+                            <a href="#" class="btn btn-default add-to-cart"><i
+                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                        </div>
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <h2><?php get_template_part('/woocommerce/loop/price'); ?></h2>
+                                <p><?php the_title(); ?></p>
+                                <?php get_template_part('/woocommerce/loop/add-to-cart'); ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choose">
+                        <ul class="nav nav-pills nav-justified">
+                            <li>
+                                <?php
+                                echo do_shortcode("[yith_wcwl_add_to_wishlist label='<i class=\"fa fa-plus-square\"></i>Add to wishlist']"); ?>
+                            </li>
+                            <li>
+                                <?php echo do_shortcode("[yith_compare_button]"); ?>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <?php
+        endwhile;
+        wp_reset_postdata(); ?>
+    </div>
+<?php endif;
+wp_die();
+}

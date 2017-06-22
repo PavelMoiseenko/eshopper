@@ -27,9 +27,11 @@ jQuery(document).ready(function($){
 	$('.panel-body a').on("click", function(e){
         e.preventDefault();
         var brand_slug = $(this).attr("class");
+        var category_name = $(this).parent().parent().parent().parent().attr("id");
         var data = {
             action : 'my_action',
-            brand_slug : brand_slug
+            brand_slug : brand_slug,
+            category_name: category_name
         };
 
         jQuery.post(
